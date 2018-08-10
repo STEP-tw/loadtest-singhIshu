@@ -53,6 +53,9 @@ const gcd = function (fNum, sNum) {
   lcm
   This function returns the least common multiple of any two numbers
 */
+const lcm = function(fNum, sNum){
+  return ((fNum * sNum)/ gcd(fNum,sNum));
+}
 
 
 
@@ -61,7 +64,6 @@ const gcd = function (fNum, sNum) {
   This function returns the simple interest calculated when given
   principle, period and rate of interest(in that order)
 */
-
 
 /*
   compoundInterest
