@@ -3,6 +3,9 @@
   This function takes a number and returns true or false
   based on whether the number is even or not
 */
+const isEven = (number) => {
+  return number % 2 == 0;
+}
 
 /*
   isOdd
