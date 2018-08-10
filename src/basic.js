@@ -64,6 +64,9 @@ const lcm = function(fNum, sNum){
   This function returns the simple interest calculated when given
   principle, period and rate of interest(in that order)
 */
+const getSimpleInterest = (principal,rate,time)=>{
+  return (principal * rate * time) / 100;
+}
 
 /*
   compoundInterest
