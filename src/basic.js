@@ -32,13 +32,22 @@ const getSquare = (number) => {
   This function takes a number and returns the mathematical cube
   of that number
 */
+const getCube = (number) => {
+  return number * number * number;
+}
 
 
 /*
   gcd
   This function returns the greatest common divisor of any two numbers
 */
+const gcd = function (fNum, sNum) {
+  if (!fNum) {
+    return sNum;
+  }
 
+  return gcd(fNum, sNum % fNum);
+};
 
 /*
   lcm
